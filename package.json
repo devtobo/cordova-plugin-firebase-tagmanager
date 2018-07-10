@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-googletagmanager-ios",
-  "version": "0.0.1",
-  "description": "Cordova plugin for adding GoogleTagManager to cordova-ios projects",
+  "name": "cordova-plugin-firebase-tagmanager",
+  "version": "1.0.0",
+  "description": "Cordova plugin for adding GoogleTagManager to cordova-ios projects that are already using cordova-plugin-firebase",
   "cordova": {
-    "id": "cordova-plugin-googletagmanager-ios",
+    "id": "cordova-plugin-firebase-tagmanager",
     "platforms": [
       "ios"
     ]
@@ -15,6 +15,7 @@
   "keywords": [
     "cordova",
     "google-tag-manager",
+    "firebase",
     "gtm",
     "ecosystem:cordova",
     "cordova-ios"
