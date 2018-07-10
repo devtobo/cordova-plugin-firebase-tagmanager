@@ -32,7 +32,7 @@ function log(logString, type) {
 }
 
 function getCordovaParameter(variableName, contents) {
-  var gtmPlugin = contents && contents.cordova && contents.cordova.plugins && contents.cordova.plugins['cordova-plugin-googletagmanager-ios']
+  var gtmPlugin = contents && contents.cordova && contents.cordova.plugins && contents.cordova.plugins['cordova-plugin-firebase-tagmanager']
   var variable = gtmPlugin && gtmPlugin[variableName]
   return variable;
 }

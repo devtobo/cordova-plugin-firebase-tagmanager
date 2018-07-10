@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-firebase-tagmanager"
-    version="1.0.0">
+    version="1.0.1">
     <name>GoogleTagManagerForCordovaIos</name>
     <description>Cordova GoogleTagmanager for iOS Plugin</description>
     <license>MIT</license>
