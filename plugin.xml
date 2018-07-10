@@ -43,9 +43,15 @@
             </feature>
         </config-file>
 		
-		<framework src="GoogleTagManager" type="podspec" spec="~> 6.0" /> 
+		<framework custom="true" src="ios/GoogleTagManager.framework" /> 
+		<framework custom="true" src="ios/GoogleUtilities.framework" /> 
+		<framework custom="true" src="ios/GoogleSymbolUtilities.framework" /> 
+        <source-file src="ios/GoogleAnalytics/Libraries/libGoogleAnalytics.a" framework="true" />
+        <resource-file src="ios/GoogleTagManager.framework/Resources/TagManagerResources.bundle" />
 
-        <preference name="CONFIG_FILE_NAME" />
+        <framework src="CoreData.framework" />
+        <framework src="AddressBook.framework" />
+
         <hook type="after_prepare" src="hooks/copyGtmContainerConfig.js" />
         <hook type="after_prepare" src="hooks/addGtmContainerFolderToTarget.js" />
     </platform>
